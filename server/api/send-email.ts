@@ -17,15 +17,15 @@ export default defineEventHandler(async (event) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "iwdl.edward.marshall@gmail.com",
-      pass: "xanxdiaqaxmpjjib",
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
   });
 
   //Set credential of source mail to value
   const mailOptions = {
-    from: "iwdl.edward.marshall@gmail.com",
-    to: "SOLUTION.IWDL@GMAIL.COM",
+    from: process.env.EMAIL_USER,
+    to: process.env.EMAIL_TO,
     subject: body.subject,
     text: body.text,
   };

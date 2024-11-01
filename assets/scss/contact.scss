@@ -1,0 +1,39 @@
+.page-contact {
+  font-size: 1em;
+
+  textarea {
+    height: 5em;
+    resize: none;
+  }
+
+  .button-group {
+    text-align: right;
+    margin-bottom: 0px;
+
+    button {
+      background: $verdure-color;
+    }
+  }
+
+  .frame.contact {
+    font-size: 1em;
+    text-shadow: none;
+    color: $dark-color;
+    text-align: left;
+    background-image: url('@/assets/imgs/photos/map-01.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+
+    h1 {
+      i {
+        cursor: pointer;
+        font-weight: lighter;
+
+        &:hover {
+          color: $sky-color;
+        }
+      }
+    }
+  }
+}

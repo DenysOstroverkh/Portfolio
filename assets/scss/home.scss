@@ -1,0 +1,92 @@
+.page-home {
+  .available-mark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $verdure-color;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+
+    i {
+      animation: zoomouting 3s ease-in-out infinite;
+    }
+  }
+
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin-top: 1em;
+      animation: translate-y 5s infinite;
+
+      &:nth-child(2) {
+        animation-delay: 1s;
+      }
+      &:nth-child(3) {
+        animation-delay: 2s;
+      }
+      &:nth-child(4) {
+        animation-delay: 3s;
+      }
+      &:nth-child(5) {
+        animation-delay: 4s;
+      }
+    }
+  }
+
+  .slogan {
+    &.tagline {
+      color: $white-color;
+      text-shadow: 0px 1px 1px $black-color, -1px 0px 1px $black-color,
+        1px 0px 1px $black-color, 0px -1px 1px $black-color,
+        0px -3px 5px $black-color;
+      > i {
+        margin-right: 1em;
+      }
+    }
+
+    &.experience {
+      color: $blue-color;
+      > i {
+        margin-left: 1em;
+      }
+    }
+  }
+
+  .mark-container {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0em 2em;
+
+    .mark {
+      &.completion {
+        color: $pink-color;
+        > i {
+          margin-top: 0.5em;
+        }
+      }
+
+      &.led {
+        color: $green-color;
+        > i {
+          margin-bottom: 0.5em;
+        }
+      }
+
+      &.colleague {
+        color: $gold-color;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  img.environment {
+    margin-bottom: 2em;
+  }
+}

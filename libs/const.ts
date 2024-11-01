@@ -1,0 +1,10 @@
+export const TITLE_01 = "IDEAL";
+export const TITLE_02 = "SOFTER";
+export const LEVEL = "SEASONED SOFTWARE ENGINEER";
+export const START_DATE = "2010-09-15T09:00:00";
+export const PHONE_NUMBER = "+1 (985) 878 5832";
+export const GMAIL = "apollo21century";
+export const GIT = "Ideal-Softer";
+export const SKYPE = "apollo21century";
+export const TELEGRAM = "apollo21century";
+export const LINKEDIN = "/in/taylor-fuller-85b166170";
